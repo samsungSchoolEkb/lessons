@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:name=".provider.UsersProvider"
+            android:authorities="com.example.sql_example"
+            android:exported="true" />
     </application>
 
 </manifest>

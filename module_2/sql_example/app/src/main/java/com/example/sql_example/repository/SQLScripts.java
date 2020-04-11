@@ -20,6 +20,14 @@ public class SQLScripts {
                 ");";
     }
 
+    public static String getUserById(int id) {
+        return "select * from user where id = " + id + ";";
+    }
+
+    public static String deleteById(int id){
+        return "delete from user where id = " + id + ";";
+    }
+
     public static String getUserScript(String name, String password) {
         String _name = "\"" + name + "\"";
         String _password = "\"" + password + "\"";

@@ -1,9 +1,11 @@
-package com.example.sql_example.repository;
+package com.example.sql_example.utils;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import com.example.sql_example.repository.SQLScripts;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private final String TAG = "DatabaseHelper";

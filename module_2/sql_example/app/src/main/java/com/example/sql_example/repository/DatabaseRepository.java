@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.sql_example.domain.User;
+import com.example.sql_example.utils.DatabaseHelper;
 
 import java.util.ArrayList;
 
