@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 
+apply plugin: "androidx.navigation.safeargs"
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -34,5 +36,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     compile group: 'android.arch.navigation', name: 'navigation-fragment', version: '1.0.0'
+    compile group: 'com.google.android.material', name: 'material', version: '1.1.0-rc02'
+    compile group: 'androidx.navigation', name: 'navigation-ui', version: '2.2.2'
+
 
 }
